@@ -24,7 +24,7 @@ const FAQ = () => {
   };
 
   return (
-    <div className="w-full max-w-4xl mx-auto p-6 relative top-[100px] px-10">
+    <div className="w-full max-w-4xl mx-auto p-6 relative top-[150px] px-10">
       <h2 className="text-3xl font-bold">Frequently Asked Questions</h2>
 
       {faqs.map((section, sectionIndex) => (

@@ -1,4 +1,5 @@
-
+import img1 from "./images/WebSite-03.png";
+import img2 from "./images/WebSite-04.png";
 const FeaturesSection = () => {
   return (
     <div id="features">
@@ -21,9 +22,8 @@ const FeaturesSection = () => {
           {/* Right Image */}
           <div className="flex justify-center">
             <img
-              src="/assets/images/learning-kid.png"
+              src={img1}
               alt="Learning Kid"
-              className="w-72 md:w-80"
             />
           </div>
         </div>
@@ -33,10 +33,9 @@ const FeaturesSection = () => {
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
           {/* Left Image */}
           <div className="flex justify-center">
-            <img
-              src="/assets/images/family-learning.png"
-              alt="Family Learning"
-              className="w-72 md:w-80"
+          <img
+              src={img2}
+              alt="Learning Kid"
             />
           </div>
 

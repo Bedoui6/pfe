@@ -1,5 +1,5 @@
 import React from "react";
-
+import img1 from "./images/WebSite-02.png";
 const HeroSection: React.FC = () => {
   return (
     <div id="hero" className="bg-gradient-to-r from-blue-100 to-blue-50 flex h-[70vh] relative top-[80px]  px-10">
@@ -13,8 +13,11 @@ const HeroSection: React.FC = () => {
         </div>
 
         {/* Right Image */}
-        <div className="w-40 h-40 bg-gray-200 flex items-center justify-center rounded-lg shadow-md flex-1 relative left-[300px] scale-200">
-          <span className="text-gray-500">[Image Placeholder]</span>
+        <div className="w-40 h-40  flex items-center justify-center rounded-lg flex-1 relative left-[300px] scale-200">
+        <img
+              src={img1}
+              alt="Learning Kid"
+            />
         </div>
       </div>
     </div>

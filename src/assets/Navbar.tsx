@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
+import myImage from "./images/Logo.png";
 import { Link } from "react-scroll"; // Import for smooth scrolling
 
 const Navbar: React.FC = () => {
@@ -10,7 +11,7 @@ const Navbar: React.FC = () => {
       <div className="flex justify-between items-center py-4 px-6 md:px-12">
         {/* Logo */}
         <a href="/" className="text-4xl font-bold text-purple-600">
-        LOGO
+        <img src={myImage} alt="My Image" width="100" />
         </a>
 
         {/* Desktop Menu */}
